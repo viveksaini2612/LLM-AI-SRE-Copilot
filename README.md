@@ -37,7 +37,7 @@ sre-copilot/
 1. **Install dependencies:**
 ```bash
 pip install -r requirements.txt
-install ollama  
+#  brew/pip .. install ollama  
 ollama pull tinyllama
 python embeddings.py
 python ask.py
