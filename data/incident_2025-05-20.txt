@@ -1,0 +1,16 @@
+On May 20th, 2025, the payment service experienced repeated 502 errors due to a database connection pool exhaustion.
+Restarting the DB server temporarily resolved the issue.
+Title: 503 Errors on auth-api
+Date: 2025-05-20
+
+Impact:
+Users were unable to authenticate between 10:42 AM and 11:17 AM UTC.
+
+Root Cause:
+The auth-api service failed due to a misconfigured Envoy proxy which blocked all incoming traffic. The CPU also spiked due to retries.
+
+Resolution:
+Rolled back to a previous Envoy config. Restarted the service and monitored CPU load.
+
+Follow-up:
+Improve config validation. Add CPU and health checks to CI/CD gates.

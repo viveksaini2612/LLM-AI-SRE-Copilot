@@ -1,0 +1,5 @@
+If CPU usage exceeds 85% for more than 5 minutes:
+1. Check running processes with top or htop.
+2. Identify runaway processes.
+3. Restart the service if needed.
+4. Notify on-call SRE.
