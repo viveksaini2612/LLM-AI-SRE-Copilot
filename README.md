@@ -1,5 +1,5 @@
 # LLM-AI-SRE-Copilot
-# 🛠 SRE Copilot – Local AI Assistant for SREs
+#  SRE Copilot – Local AI Assistant for SREs
 
 A lightweight, offline-ready AI assistant that helps Site Reliability Engineers (SREs) diagnose incidents, understand logs, and follow runbooks using a **local RAG (Retrieval-Augmented Generation)** system.
 
@@ -19,7 +19,7 @@ Built with:
 
 ---
 
-## 📁 Directory Structure
+##  Directory Structure
 
 sre-copilot/
 ├── data/ # Put your .txt runbooks, logs, and incidents here
@@ -32,7 +32,7 @@ sre-copilot/
 
 ---
 
-## ⚙️ Setup
+## ⚙ Setup
 
 1. **Install dependencies:**
 ```bash
