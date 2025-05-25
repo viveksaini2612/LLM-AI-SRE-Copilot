@@ -18,5 +18,5 @@ def embed_docs():
     embeddings = model.encode(docs).tolist()
     ids = [f"doc{i}" for i in range(len(docs))]
     collection.add(documents=docs, embeddings=embeddings, ids=ids)
-    print("📦 Embedded and stored in ChromaDB.")
+    print("Embedded and stored in ChromaDB.")
 
