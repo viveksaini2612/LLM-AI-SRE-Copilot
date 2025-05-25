@@ -32,7 +32,7 @@ sre-copilot/
 
 ---
 
-## ⚙ Setup
+##  Setup
 
 1. **Install dependencies:**
 ```bash
